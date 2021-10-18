@@ -365,7 +365,10 @@
                 <div class="col-md-9">
                     <h4>Loss functions for Deep metric learning</h4>
                     <p class="speaker-abstract">
-                        TBA
+                        Understanding semantic similarity between images has played essential roles in many areas of computer vision. Deep metric learning aims to achieve this by training deep neural network that embeds images onto a manifold in which semantically similar images are closely grouped together; the semantic similarity between two examples are then directly estimated on the manifold using known distance metrics like Euclidean and cosine distances. Such a quality of the network is given mainly by loss functions used for training the networks.
+Most losses for deep metric learning are based on binary supervision indicating whether a pair of images are of the same class or not, which are readily available from existing large-scale datasets for image classification. The first part of this talk will introduce a new loss function that allows the embedding networks to achieve state-of-the-art performance and converge most quickly in the binary supervision case.
+Although the binary supervision is readily available from many existing datasets, it covers only a limited subset of image relations, and is not sufficient to represent semantic similarity between images described by continuous and structured labels such as object poses, image captions, and scene graphs. Motivated by this, the second part of this talk will present a novel loss for deep metric learning using continuous labels.
+
                     </p>
                 </div>
             </div>
